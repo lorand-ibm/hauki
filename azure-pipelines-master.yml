@@ -27,10 +27,10 @@ pool: Default
 resources:
   repositories:
   # Azure DevOps repository
-  - repository: hauki-pipelines
+  - repository: unittest1-pipelines
     type: git
     # project/repository
-    name: hauki/hauki-pipelines
+    name: unittest1/unittest1-pipelines
 
 extends:
-  template: azure-pipelines-hauki-api-master.yml@hauki-pipelines
+  template: azure-pipelines-hauki-api-master.yml@unittest1-pipelines
