@@ -19,7 +19,7 @@ def test_opening_hours_empty(admin_client):
         content_type="application/json",
     )
 
-    assert response.status_code == 200, "{} {}".format(
+    assert response.status_code == 201, "{} {}".format( #tahallinen virhe
         response.status_code, response.data
     )
 
