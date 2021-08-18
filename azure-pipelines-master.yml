@@ -33,4 +33,4 @@ resources:
     name: unittest1/unittest1-pipelines
 
 extends:
-  template: azure-pipelines-hauki-api-master.yml@unittest1-pipelines
+  template: azure-pipelines-hauki-master.yml@unittest1-pipelines
