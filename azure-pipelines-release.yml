@@ -34,4 +34,4 @@ resources:
     name: unittest1/unittest1-pipelines
 
 extends:
-  template: azure-pipelines-hauki-stageprod.yml@unittest1-pipelines
+  template: azure-pipelines-host-variable-test-stageprod.yml@unittest1-pipelines
